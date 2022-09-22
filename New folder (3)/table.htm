@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            text-align: center;
+            color: #66fef9;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>This is a <a class="form" href="#" style="color: black;"> form </a></h1>
+        <div>
+            <form>
+               <label for="fname">First name:</label><br />
+               <input type="text" id="fname" name="fname" placeholder="Your First Name"/><br />
+               <label for="lname">Last name:</label><br />
+               <input type="text" id="lname" name="lname" placeholder="Your Last Name"/><br />
+            <br>
+            <div>
+                <input type="radio" id="male" name="gender" calue="male" />
+                <label for="male">Male</label><br />
+                <input type="radio"id="female" name="gender" calue="female" />
+                <label for="female">Female</label><br />
+                <input type="radio"id="other" name="gender" calue="other" />
+                <label for="other">Other</label><br />
+            </div>
+    </section>
+    <section>
+        <h1>This is a <a class="form" href="#" style="color: black;"> Table </a></h1>
+        <table>
+            <tr>
+              <th rowspan="2">Name</th>
+              <th rowspan="2">Class</th>
+              <th rowspan="2">Roll no</th>
+              <th rowspan="2">Phone</th>
+              <th rowspan="2">Email</th>
+              <th rowspan="2">Gender</th>
+              <th colspan="4">Subject</th>
+              <th rowspan="2">Points</th>
+            </tr>
+
+            <tr>
+                <th>Maths</th>
+                <th>English</th>
+                <th>Nepali</th>
+                <th>Computer</th>
+            </tr>
+            <tr>
+              <td>ABhiyan Dahal</td>
+              <td>32 B</td>
+              <td>220107</td>
+              <td>98444</td>
+              <td>220107@softwarica.edu.np</td>
+              <td>Male</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>Yes</td>
+              <td>100</td>
+            </tr>
+
+            <tr>
+                <td>Arman Shah</td>
+                <td>32 B</td>
+                <td>2208678</td>
+                <td>98222</td>
+                <td>220058@softwarica.edu.np</td>
+                <td>Male</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>100</td>
+              </tr>
+
+            <tr>
+                <td colspan="10">Total points</td>
+                <td>100</td> 
+            </tr>
+          </table>
+    </section>
+    <div>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <div class="main-div">
+            <h1>Another Heading 1</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        just another text
+    </div>
+</body>
+</html>
